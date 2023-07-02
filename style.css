@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    background: #f2f2f2;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.header-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right .search-btn {
+    width: 350px;
+    height: 40px;
+    border: 1px solid rgba(35, 47, 85, 0.15);
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.header-right .search-btn:focus {
+    outline: none;
+}
+
+form {
+    position: relative;
+}
+
+.header-right .search-icon {
+    position: absolute;
+    top: 18%;
+    left: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #f97c37;
+}
+
+.header-left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-left .shopping-cart {
+    margin-left: 25px;
+}
+
+.header-left .login-btn {
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgba(35, 47, 85, 0.15);
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 15px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.header-left .login-btn:hover {
+    width: 140px;
+    background: #f97c37;
+    color: #fff;
+    font-weight: 500;
+}
