@@ -91,3 +91,37 @@ form {
     color: #fff;
     font-weight: 500;
 }
+
+.navBar {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    position: block;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-weight: 600;
+}
+
+.navBar ul li a:hover {
+    color: #f97c37;
+}
