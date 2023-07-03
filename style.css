@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* header */
@@ -14,6 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
+    z-index: 1;
 }
 
 .header-right {
@@ -21,6 +23,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-right img {
+    margin-right: 5px;
 }
 
 .header-right .search-btn {
@@ -90,8 +96,10 @@ form {
     background: #f97c37;
     color: #fff;
     font-weight: 500;
+    border: none;
 }
 
+/* nav bar */
 .navBar {
     width: 100%;
     height: 80px;
@@ -100,6 +108,7 @@ form {
     position: absolute;
     top: 100px;
     left: 0;
+    padding: 0 40px;
 }
 
 .navBar ul {
@@ -124,4 +133,59 @@ form {
 
 .navBar ul li a:hover {
     color: #f97c37;
+}
+
+/* main */
+main {
+    width: 100%;
+    height: 1000vh;
+    background: #e5e5e5;
+    color: #222;
+    padding: 40px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 250px;
+    padding: 20px 40px;
+}
+
+.container .con-right {
+    width: 50%;
+    display: flex;
+}
+
+.container .con-right .bg-pattern-right {
+    width: 100%;
+    height: 700px;
+    background: #f97c37;
+    z-index: 3;
+}
+
+.container .con-right img {
+    width: 500px;
+    height: 600px;
+    padding-top: 80px;
+    z-index: 2;
+}
+
+.container .con-left {
+    width: 50%;
+  display: flex;
+}
+
+.container .con-left .bg-pattern-left {
+    width: 100%;
+     height: 700px;
+    background: #f97c37;
+    z-index: 3;
+}
+
+.container .con-left img {
+    width: 500px;
+    height: 700px;
+    padding-top: 180px;
 }
