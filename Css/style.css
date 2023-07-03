@@ -63,6 +63,7 @@ form {
 
 h1 {
     margin: -8px 80px 0 0;
+
 }
 
 .header-left {
@@ -137,5 +138,55 @@ h1 {
 
 .navBar ul li a:hover {
     color: #f97c37;
+}
+
+/* main */
+main {
+    width: 100%;
+    height: 1000vh;
+    background: #e5e5e5;
+    color: #222;
+    padding: 40px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 250px;
+    padding: 30px 40px;
+}
+
+.container .con-right {
+    width: 50%;
+    margin:0 20px;
+  /*   padding: 0 20px;  */
+    box-shadow: 60px 30px #f97c37, 60px -60px #f97c37;
+}
+
+.container .con-right img {
+    width: 100%;
+    height: 500px;
+  /*   margin: 10px; */
+}
+
+.container .con-left {
+    width: 50%;
+    margin: 0 20px;
+   /*  padding: 0 20px; */
+    box-shadow: -60px -30px #f97c37, -60px 60px #f97c37;
+}
+
+.container .con-left img {
+    width: 100%;
+    height: 500px;
+   /*  margin: 10px; */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    height: 300px;
 }
 
