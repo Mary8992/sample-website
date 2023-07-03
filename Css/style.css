@@ -6,7 +6,7 @@
 }
 
 /* header */
-header {
+.header-top {
     background: #f2f2f2;
     width: 100%;
     height: 100px;
@@ -19,7 +19,7 @@ header {
 }
 
 .header-right {
-    width: 35%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,45 +29,14 @@ header {
     margin-right:5px;
 }
 
-.header-right .search-btn {
-    width: 300px;
-    height: 40px;
-    border: 1px solid rgba(35, 47, 85, 0.15);
-    padding: 10px 20px;
-    margin: 0 75px;
-    background: #fff;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    font-size: 16px;
-}
-
-.header-right .search-btn:focus {
-    outline: none;
-}
-
-form {
-    position: relative;
-}
-
-.header-right .search-icon {
-    position: absolute;
-    top: 18%;
-    left: 100px;
-    cursor: pointer;
-    font-size: 22px;
-    color: #f97c37;
-}
-
 h1 {
     margin: -8px 80px 0 0;
-
+    font-size: 40px;
+    color: #222;
 }
 
 .header-left {
-    width: 35%;
+    width: 45%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -75,6 +44,7 @@ h1 {
 
 .header-left .shopping-cart {
     margin-left: 25px;
+    cursor: pointer;
 }
 
 .header-left .login-btn {
@@ -94,6 +64,7 @@ h1 {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    cursor: pointer;
 }
 
 .header-left .login-btn:hover {
@@ -104,14 +75,57 @@ h1 {
     border: none;
 }
 
+/*search section*/
+.header-mid {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+
+.header-mid form {
+  position: absolute;
+    top: 5px;
+    left: 30%;
+    margin: auto;
+}
+
+.search-btn {
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgba(35, 47, 85, 0.15);
+    padding: 10px 20px;
+    margin: 0 75px;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 16px;
+}
+
+.search-btn:focus {
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    top: 18%;
+    left: 100px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #f97c37;
+}
+
 /* nav bar */
-.navBar {
+.header-bottom .navBar {
     width: 100%;
     height: 80px;
     background: #fff;
-    position: block;
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 0;
     padding: 0 40px;
 }
@@ -143,7 +157,6 @@ h1 {
 /* main */
 main {
     width: 100%;
-    height: 1000vh;
     background: #e5e5e5;
     color: #222;
     padding: 40px;
