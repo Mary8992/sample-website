@@ -19,21 +19,22 @@ header {
 }
 
 .header-right {
-    width: 50%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-right img {
-    margin-right: 5px;
+.header-right .logo {
+    margin-right:5px;
 }
 
 .header-right .search-btn {
-    width: 350px;
+    width: 300px;
     height: 40px;
     border: 1px solid rgba(35, 47, 85, 0.15);
     padding: 10px 20px;
+    margin: 0 75px;
     background: #fff;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -41,7 +42,6 @@ header {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     font-size: 16px;
-    margin-left: 20px;
 }
 
 .header-right .search-btn:focus {
@@ -55,14 +55,18 @@ form {
 .header-right .search-icon {
     position: absolute;
     top: 18%;
-    left: 40px;
+    left: 100px;
     cursor: pointer;
     font-size: 22px;
     color: #f97c37;
 }
 
+h1 {
+    margin: -8px 80px 0 0;
+}
+
 .header-left {
-    width: 50%;
+    width: 35%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
