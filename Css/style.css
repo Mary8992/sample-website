@@ -45,6 +45,17 @@ h1 {
 .header-left .shopping-cart {
     margin-left: 25px;
     cursor: pointer;
+    font-size: 24px;
+    color: orange;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.header-left .shopping-cart:hover {
+    color: #f97c37;
 }
 
 .header-left .login-btn {
@@ -52,7 +63,7 @@ h1 {
     height: 40px;
     border: 1px solid rgba(35, 47, 85, 0.15);
     padding: 10px 20px;
-    background: #fff;
+    background:#fff;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -69,7 +80,7 @@ h1 {
 
 .header-left .login-btn:hover {
     width: 140px;
-    background: #f97c37;
+    background: orange;
     color: #fff;
     font-weight: 500;
     border: none;
@@ -226,8 +237,23 @@ hr {
     margin: 20px;
 }
 
+.socials a {
+    text-decoration: none !important;
+}
+
 .socials i {
     margin: 0 10px;
     padding: 10px;
     font-size: 24px;
+    cursor: pointer;
+    color:#c8c9cc;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+
+.socials i:hover {
+    color: #fff;
 }
